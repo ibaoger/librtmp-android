@@ -19,5 +19,5 @@ TARGET_PLATFORM := android-23
 ### static library use the second line
 ### !!! only one line can be used !!! ###
 
-#include $(BUILD_SHARED_LIBRARY)
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
+#include $(BUILD_STATIC_LIBRARY)
